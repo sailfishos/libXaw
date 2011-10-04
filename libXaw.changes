@@ -1,0 +1,28 @@
+* Thu Jun 09 2011 Liu, Xinyun <xinyun.liu@intel.com> - 1.0.9
+- Updated to git 39ffb88b. Fixed fix potential infinte loop.
+
+* Thu Jun 09 2011 Liu, Xinyun <xinyun.liu@intel.com> - 1.0.9
+- Updated to 1.0.9
+
+* Sat Apr 10 2010 Anas Nashif <anas.nashif@intel.com> - 1.0.7
+- Fixed rpmlint errors
+
+* Sat Feb 27 2010 Anas Nashif <anas.nashif@intel.com> - 1.0.7
+- Updated with latest spectacle
+- Include YAML file in source rpm
+
+* Fri Dec 11 2009 Li Peng <peng.li@intel.com> 1.0.7
+- Update to 1.0.7
+
+* Tue Apr 21 2009 Zhu Yanhai<yanhai.zhu@intel.com> 1.0.5
+- Update to 1.0.5
+
+* Tue Dec 16 2008 Anas Nashif <anas.nashif@intel.com> 1.0.4
+- Update spec file using latest spec-builder
+
+* Tue Dec 16 2008 Anas Nashif <anas.nashif@intel.com> 1.0.4
+- Update spec file using latest spec-builder
+
+* Wed Dec 10 2008 Arjan van de Ven <arjan@linux.intel.com> 1.0.4
+- Clean up the spec file
+

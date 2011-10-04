@@ -1,0 +1,37 @@
+Name: libXaw
+Summary: X.Org X11 libXaw runtime library
+Description: |
+  Xaw is the X Athena Widget Set.
+  Xaw is a widget set based on the X Toolkit Intrinsics (Xt) Library.
+Version: 1.0.9
+Release: 1
+Group: System/Libraries
+License: MIT
+URL: http://www.x.org/
+Sources:
+    - http://xorg.freedesktop.org/releases/individual/lib/%{name}-%{version}.tar.bz2
+Patches:
+    - 1.0.9-git39ffb88b.patch
+RpmLintIgnore:
+    - "libXaw-compat.* devel-file-in-non-devel-package"
+PkgBR:
+    - ed
+PkgConfigBR:
+    - xproto
+    - x11
+    - xext
+    - xextproto
+    - xt
+    - xmu
+    - xpm
+SubPackages:
+    - Name: devel
+      Summary: Development files for %{name}
+      Description: Development files for libXaw.
+      Group: Development/Libraries
+
+    - Name: compat
+      Summary: Compatibility components for the libXaw library
+      Description: Compatibility components for the libXaw library.
+      Group: Development/Libraries
+
